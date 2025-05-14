@@ -39,7 +39,7 @@ body {
   background: linear-gradient(to bottom, #fff5c0, #fff3a3);
   text-align: center;
   padding: 40px 10px;
-  background-image: url('./images/egg_timer_background.png');
+  background-image: url('../images/egg_timer_background.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -56,9 +56,10 @@ body {
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
-  border: 2px solid #e68c8c;
-  background-color: #fddada;
-  color: #d05555;
+  border: 2px solid #f0c040;
+  background-color: lightyellow;
+  color: black;
+  font: bold
   border-radius: 5px;
   text-decoration: none;
 }
