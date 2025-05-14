@@ -7,7 +7,8 @@ function getDurationFromURL() {
 let duration = getDurationFromURL();
 const timerDisplay = document.getElementById("timer");
 const endBtn = document.getElementById("endBtn");
-const eggImage = document.querySelector(".egg-image"); 
+const eggImage = document.querySelector(".egg-image");
+const readyMessage = document.getElementById("readyMessage"); // ✅ message element
 
 if (timerDisplay) {
   const interval = setInterval(() => {
@@ -21,15 +22,18 @@ if (timerDisplay) {
       timerDisplay.innerHTML = "DONE 💛💛💛";
       endBtn.style.display = "inline-block";
 
+
+      if (readyMessage) {
+        readyMessage.style.display = "none";
+      }
+
       if (eggImage) {
-        eggImage.src = "../images/maxresdefault.png"; 
+        eggImage.src = "../images/maxresdefault.png";
         eggImage.alt = "Finished Egg";
       }
     }
   }, 1000);
 }
-
-
 
 // CLOSE ANIMATION
 document.addEventListener('DOMContentLoaded', () => {
@@ -38,11 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (closeBtn && windowBox) {
     closeBtn.addEventListener('click', () => {
-
       windowBox.classList.add('fade-out');
       setTimeout(() => {
         windowBox.style.display = 'none';
-
 
         const goodbyeText = document.createElement('div');
         goodbyeText.textContent = "Goodbye, Egg Lover 🥚💛";
