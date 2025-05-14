@@ -22,7 +22,7 @@ if (timerDisplay) {
       endBtn.style.display = "inline-block";
 
       if (eggImage) {
-        eggImage.src = "../css/maxresdefault.png"; 
+        eggImage.src = "../images/maxresdefault.png"; 
         eggImage.alt = "Finished Egg";
       }
     }
