@@ -193,68 +193,66 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   body {
-    padding: 16px;
-    display: block;
+    padding: 10px;
     height: auto;
-    background-color: lightyellow;
+    display: block;
   }
 
   .window {
     width: 100%;
-    max-width: 400px;
-    margin: auto;
-    border-width: 6px;
+    max-width: 320px;
+    margin: 20px auto;
+    border-width: 4px;
   }
 
   .title-bar {
-    font-size: 18px;
-    padding: 10px 16px;
+    font-size: 14px;
+    padding: 6px 10px;
   }
 
   .content,
   .timer-container {
-    padding: 32px 12px;
-    background-size: contain;
+    padding: 20px 8px;
+    background-size: cover;
     background-position: center;
   }
 
   .message {
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .start-btn {
-    padding: 14px 24px;
-    font-size: 18px;
+    padding: 8px 16px;
+    font-size: 14px;
   }
 
   .egg-grid {
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 12px;
   }
 
   .egg-option img {
-    width: 140px;
-    height: 140px;
+    width: 90px;
+    height: 90px;
   }
 
   .egg-option span {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   #timer {
-    font-size: 42px;
-    margin-bottom: 24px;
+    font-size: 28px;
+    margin-bottom: 20px;
   }
 
   .end-btn {
-    font-size: 16px;
-    padding: 14px 24px;
+    font-size: 11px;
+    padding: 10px 16px;
   }
 
   .goodbye-message {
-    font-size: 18px;
-    margin-top: 24px;
+    font-size: 14px;
   }
 }
