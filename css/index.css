@@ -155,6 +155,20 @@ body {
   font-family: 'Courier New', monospace;
 }
 
+#readyMessage {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.egg-image {
+  width: 200px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+
 @keyframes fadeOut {
   from {
     opacity: 1;
