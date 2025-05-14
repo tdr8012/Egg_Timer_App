@@ -14,9 +14,10 @@ function getDurationFromURL() {
     duration--;
   
     if (duration < 0) {
-      clearInterval(interval);
-      timerDisplay.textContent = "DONE!";
-      endBtn.style.display = "inline-block";
-    }
+  clearInterval(interval);
+  timerDisplay.innerHTML = "DONE ❤️❤️❤️"; 
+  endBtn.style.display = "inline-block";
+}
+
   }, 1000);
   
