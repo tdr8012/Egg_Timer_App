@@ -10,13 +10,12 @@ const endBtn = document.getElementById("endBtn");
 const eggImage = document.querySelector(".egg-image");
 const readyMessage = document.getElementById("readyMessage");
 
-
-const tickingSound = new Audio("../sounds/frying_egg.mp3");
-tickingSound.loop = true;
+const fryingSound = new Audio("../sounds/frying_egg.mp3");
+fryingSound.loop = true;
 
 if (timerDisplay) {
-  
-  tickingSound.play();
+  fryingSound.currentTime = 0;
+  fryingSound.play().catch(e => console.warn("Autoplay blocked:", e));
 
   const interval = setInterval(() => {
     const minutes = Math.floor(duration / 60);
@@ -26,8 +25,8 @@ if (timerDisplay) {
 
     if (duration < 0) {
       clearInterval(interval);
-      tickingSound.pause(); 
-      tickingSound.currentTime = 0; 
+      fryingSound.pause();
+      fryingSound.currentTime = 0;
 
       timerDisplay.innerHTML = "DONE 💛💛💛";
       endBtn.style.display = "inline-block";
@@ -52,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (closeBtn && windowBox) {
     closeBtn.addEventListener('click', () => {
-      const popSound = new Audio('../sounds/pop.mp3');
+      const popSound = new Audio('../sounds/oven-timer-complete.mp3');
       popSound.play();
 
       windowBox.classList.add('fade-out');
