@@ -168,6 +168,15 @@ body {
   margin-bottom: 20px;
 }
 
+.egg-finished {
+  transition: transform 0.6s ease, width 0.6s ease;
+  transform: scale(1.1);
+  width: 80% !important;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+}
+
 
 @keyframes fadeOut {
   from {
