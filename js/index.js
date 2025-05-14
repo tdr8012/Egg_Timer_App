@@ -7,6 +7,7 @@ function getDurationFromURL() {
 let duration = getDurationFromURL();
 const timerDisplay = document.getElementById("timer");
 const endBtn = document.getElementById("endBtn");
+const eggImage = document.querySelector(".egg-image"); 
 
 if (timerDisplay) {
   const interval = setInterval(() => {
@@ -19,9 +20,16 @@ if (timerDisplay) {
       clearInterval(interval);
       timerDisplay.innerHTML = "DONE 💛💛💛";
       endBtn.style.display = "inline-block";
+
+      if (eggImage) {
+        eggImage.src = "../css/maxresdefault.png"; 
+        eggImage.alt = "Finished Egg";
+      }
     }
   }, 1000);
 }
+
+
 
 // CLOSE ANIMATION
 document.addEventListener('DOMContentLoaded', () => {
