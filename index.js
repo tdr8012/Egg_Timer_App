@@ -15,9 +15,9 @@ function getDurationFromURL() {
   
     if (duration < 0) {
   clearInterval(interval);
-  timerDisplay.innerHTML = "DONE ❤️❤️❤️"; 
+  timerDisplay.innerHTML = "DONE 💛💛💛"; 
   endBtn.style.display = "inline-block";
-}
+  }
 
-  }, 1000);
+}, 1000);
   
