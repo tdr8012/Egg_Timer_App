@@ -8,7 +8,7 @@ let duration = getDurationFromURL();
 const timerDisplay = document.getElementById("timer");
 const endBtn = document.getElementById("endBtn");
 const eggImage = document.querySelector(".egg-image");
-const readyMessage = document.getElementById("readyMessage"); // ✅ message element
+const readyMessage = document.getElementById("readyMessage");
 
 if (timerDisplay) {
   const interval = setInterval(() => {
@@ -22,7 +22,6 @@ if (timerDisplay) {
       timerDisplay.innerHTML = "DONE 💛💛💛";
       endBtn.style.display = "inline-block";
 
-
       if (readyMessage) {
         readyMessage.style.display = "none";
       }
@@ -30,6 +29,7 @@ if (timerDisplay) {
       if (eggImage) {
         eggImage.src = "../images/maxresdefault.png";
         eggImage.alt = "Finished Egg";
+        eggImage.classList.add("egg-finished"); 
       }
     }
   }, 1000);
