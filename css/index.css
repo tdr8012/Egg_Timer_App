@@ -11,9 +11,11 @@ body {
 .window {
   width: 320px;
   background: #fff3a3;
-  border: 5px solid #f0c040;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border: 6px solid #f0c040;
+  box-shadow: inset 0 0 0 3px #fff3a3;
+  overflow: hidden;
   position: relative;
+  border-radius: 0;
 }
 
 .title-bar {
@@ -21,10 +23,11 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #f9d95c;
-  padding: 5px 10px;
+  padding: 6px 12px;
   font-weight: bold;
   font-size: 16px;
   color: #c93b3b;
+  border-bottom: 3px solid #f0c040;
 }
 
 .close-btn {
@@ -35,14 +38,18 @@ body {
   cursor: pointer;
 }
 
-.content {
-  background: linear-gradient(to bottom, #fff5c0, #fff3a3);
-  text-align: center;
-  padding: 40px 10px;
+.content,
+.timer-container {
+  background: linear-gradient(to bottom, #fce996, #f6d86f);
   background-image: url('../images/egg_timer_background.png');
+  background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  text-align: center;
+  padding: 40px 10px;
+  border-top: 3px solid #f0c040;
+  border-radius: 0;
 }
 
 .message {
@@ -59,8 +66,8 @@ body {
   border: 2px solid #f0c040;
   background-color: lightyellow;
   color: black;
-  font: bold
-  border-radius: 5px;
+  font-weight: bold;
+  border-radius: 0;
   text-decoration: none;
 }
 
@@ -95,7 +102,6 @@ body {
   text-align: center;
 }
 
-
 .soft-egg img {
   filter: drop-shadow(0 0 4px #ffdd57);
 }
@@ -129,18 +135,9 @@ body {
   transform: scale(1.05) rotate(-1deg);
 }
 
-.timer-container {
-  background-color: #fff8cc;
-  border: 5px solid #f0c040;
-  padding: 50px 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  text-align: center;
-}
-
 #timer {
   font-size: 32px;
-  font: bold;
+  font-weight: bold;
   color: black;
   margin-bottom: 30px;
   font-family: 'Courier New', monospace;
@@ -153,7 +150,7 @@ body {
   background-color: lightyellow;
   color: black;
   border: 2px solid #f0c040;
-  border-radius: 6px;
+  border-radius: 0;
   text-decoration: none;
   font-family: 'Courier New', monospace;
 }
