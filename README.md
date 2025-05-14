@@ -16,8 +16,8 @@ A fun, retro-style web application that helps you boil eggs perfectly every time
 
 ## 🛠️ Technologies Used
 
-- **HTML5** – Structure of the app
-- **CSS3** – Retro visual styling
+- **HTML** – Structure of the app
+- **CSS** – Retro visual styling
 - **JavaScript** – Timer functionality and interaction
 
 ## 📂 Folder Structure
