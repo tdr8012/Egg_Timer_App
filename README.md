@@ -11,8 +11,12 @@ A fun, retro-style web application that helps you boil eggs perfectly every time
 
 ## 🖥️ Demo
 
-![Egg Timer Screenshot](https://github.com/user-attachments/assets/95e6df9c-7148-49c8-9ec6-d1474a414c8f)  
-![Egg Timer Screenshot](https://github.com/user-attachments/assets/ad2763e8-54bb-4d4d-964f-415cf729b3a0)
+
+![Egg Timer Screenshot](https://github.com/user-attachments/assets/6729f805-3dc8-4ca2-ae63-55f992fc35dd)
+
+![Egg Timer Screenshot](https://github.com/user-attachments/assets/a49237c4-58a2-4f4a-9f1d-032ea0f4a2b3)
+
+![Egg Timer Screenshot](https://github.com/user-attachments/assets/98cd2a0a-7c70-4da5-b032-1211208c0c5e)
 
 
 
