@@ -12,12 +12,9 @@ A fun, retro-style web application that helps you boil eggs perfectly every time
 ## 🖥️ Demo
 
 
-![image](https://github.com/user-attachments/assets/5d424eb3-13f3-4560-a9da-0901d40c235e)
-
-![image](https://github.com/user-attachments/assets/8f65438e-c0e3-4cd3-aeb2-7e022f18a8ca)
-
-
-![image](https://github.com/user-attachments/assets/12b5b45f-03cd-41f5-85d0-cfb7b9f25e55)
+![Screenshot 2025-05-14 015357](https://github.com/user-attachments/assets/0b15bfc0-48a0-49ed-909f-957010495be4)
+![Screenshot 2025-05-14 015343](https://github.com/user-attachments/assets/023b604f-7332-46eb-8ddf-12f6b5e3de4a)
+![Screenshot 2025-05-14 015430](https://github.com/user-attachments/assets/a9757ce0-969a-4194-b98c-878a08bbb770)
 
 ## 🛠️ Technologies Used
 
