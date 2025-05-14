@@ -139,7 +139,8 @@ body {
 
 #timer {
   font-size: 32px;
-  color: #d05555;
+  font: bold;
+  color: black;
   margin-bottom: 30px;
   font-family: 'Courier New', monospace;
 }
@@ -148,9 +149,9 @@ body {
   display: none;
   padding: 12px 20px;
   font-size: 12px;
-  background-color: #fddada;
-  color: #d05555;
-  border: 2px solid #e68c8c;
+  background-color: lightyellow;
+  color: black;
+  border: 2px solid #f0c040;
   border-radius: 6px;
   text-decoration: none;
   font-family: 'Courier New', monospace;
