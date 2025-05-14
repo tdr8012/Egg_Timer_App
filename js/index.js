@@ -1,3 +1,4 @@
+
 // TIMER FUNCTION
 function getDurationFromURL() {
   const params = new URLSearchParams(window.location.search);
@@ -28,6 +29,9 @@ if (timerDisplay) {
       fryingSound.pause();
       fryingSound.currentTime = 0;
 
+      const doneSound = new Audio('../sounds/bell_notification.mp3');
+      doneSound.play();
+
       timerDisplay.innerHTML = "DONE 💛💛💛";
       endBtn.style.display = "inline-block";
 
@@ -51,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (closeBtn && windowBox) {
     closeBtn.addEventListener('click', () => {
-      const popSound = new Audio('../sounds/oven-timer-complete.mp3');
+      const popSound = new Audio('../sounds/kisspop3wav-14505.mp3');
       popSound.play();
 
       windowBox.classList.add('fade-out');
