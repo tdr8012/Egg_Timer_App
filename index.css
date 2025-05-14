@@ -94,7 +94,7 @@ body {
   text-align: center;
 }
 
-/* Individual Egg Styling */
+
 .soft-egg img {
   filter: drop-shadow(0 0 4px #ffdd57);
 }
@@ -112,7 +112,6 @@ body {
   filter: drop-shadow(0 0 4px #ff69b4);
 }
 
-/* Hover Effects */
 .soft-egg:hover img {
   transform: scale(1.05);
 }
