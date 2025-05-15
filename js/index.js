@@ -5,6 +5,7 @@ function getDurationFromURL() {
   return parseInt(params.get("duration")) || 60;
 }
 
+// TIMER DISPLAY
 let duration = getDurationFromURL();
 const timerDisplay = document.getElementById("timer");
 const endBtn = document.getElementById("endBtn");
